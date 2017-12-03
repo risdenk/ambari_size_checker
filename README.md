@@ -19,6 +19,12 @@
 646M ambari-server-2.4.0.1-1.x86_64.rpm
 646M ambari-server-2.4.1.0-22.x86_64.rpm
 645M ambari-server-2.4.2.0-136.x86_64.rpm
+645M ambari-server-2.4.3.0-30.x86_64.rpm
+663M ambari-server-2.5.0.3-7.x86_64.rpm
+664M ambari-server-2.5.1.0-159.x86_64.rpm
+716M ambari-server-2.5.2.0-298.x86_64.rpm
+713M ambari-server-2.5.2.5-4.x86_64.rpm
+712M ambari-server-2.6.0.0-267.x86_64.rpm
 ```
 
 From what you can see there are some significant jumps from 1.6.1 to 1.7.0 and 2.0.1 to 2.1.0. I dug a little further and found what was causing the significant change.
@@ -182,6 +188,60 @@ Outlined below are the top 5 files from each RPM based on size in bytes (largest
 52636981 /var/lib/ambari-server/resources/views/slider-2.4.2.0.136.jar
 49399762 /var/lib/ambari-server/resources/views/tez-view-2.4.2.0.136.jar
 48888595 /var/lib/ambari-server/resources/views/wfmanager-2.4.2.0.136.jar
+```
+
+### Ambari 2.4.3.0
+```bash
+126592312 /var/lib/ambari-server/resources/views/hive-jdbc-2.4.3.0.30.jar
+99459014 /var/lib/ambari-server/resources/views/hive-2.4.3.0.30.jar
+52637995 /var/lib/ambari-server/resources/views/slider-2.4.3.0.30.jar
+49401333 /var/lib/ambari-server/resources/views/tez-view-2.4.3.0.30.jar
+48894994 /var/lib/ambari-server/resources/views/wfmanager-2.4.3.0.30.jar
+```
+
+### Ambari 2.5.0.3
+```bash
+128278993 /var/lib/ambari-server/resources/views/hive-jdbc-2.5.0.3.7.jar
+123981459 /var/lib/ambari-server/resources/views/hive20-2.5.0.3.7.jar
+55193044 /var/lib/ambari-server/resources/views/slider-2.5.0.3.7.jar
+52511054 /var/lib/ambari-server/resources/views/tez-view-2.5.0.3.7.jar
+50430748 /var/lib/ambari-server/resources/views/pig-2.5.0.3.7.jar
+```
+
+### Ambari 2.5.1.0
+```bash
+128641703 /var/lib/ambari-server/resources/views/hive-jdbc-2.5.1.0.159.jar
+124026658 /var/lib/ambari-server/resources/views/hive20-2.5.1.0.159.jar
+55220096 /var/lib/ambari-server/resources/views/slider-2.5.1.0.159.jar
+52552069 /var/lib/ambari-server/resources/views/tez-view-2.5.1.0.159.jar
+50461785 /var/lib/ambari-server/resources/views/pig-2.5.1.0.159.jar
+```
+
+### Ambari 2.5.2.0
+```bash
+128673433 /var/lib/ambari-server/resources/views/hive-jdbc-2.5.2.0.298.jar
+124054799 /var/lib/ambari-server/resources/views/hive20-2.5.2.0.298.jar
+55229681 /var/lib/ambari-server/resources/views/slider-2.5.2.0.298.jar
+52585922 /var/lib/ambari-server/resources/views/tez-view-2.5.2.0.298.jar
+50495831 /var/lib/ambari-server/resources/views/pig-2.5.2.0.298.jar
+```
+
+### Ambari 2.5.2.5
+```bash
+128678165 /var/lib/ambari-server/resources/views/hive-jdbc-2.5.2.5.4.jar
+124059530 /var/lib/ambari-server/resources/views/hive20-2.5.2.5.4.jar
+55234504 /var/lib/ambari-server/resources/views/slider-2.5.2.5.4.jar
+52593771 /var/lib/ambari-server/resources/views/tez-view-2.5.2.5.4.jar
+50500726 /var/lib/ambari-server/resources/views/pig-2.5.2.5.4.jar
+```
+
+### Ambari 2.6.0.0
+```bash
+128678653 /var/lib/ambari-server/resources/views/hive-jdbc-2.6.0.0.267.jar
+124062528 /var/lib/ambari-server/resources/views/hive20-2.6.0.0.267.jar
+55233426 /var/lib/ambari-server/resources/views/slider-2.6.0.0.267.jar
+52589923 /var/lib/ambari-server/resources/views/tez-view-2.6.0.0.267.jar
+50500812 /var/lib/ambari-server/resources/views/pig-2.6.0.0.267.jar
 ```
 
 ### Conclusion

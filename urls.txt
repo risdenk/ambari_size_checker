@@ -15,3 +15,9 @@
 2.4.0.1-1,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.0.1/ambari/ambari-server-2.4.0.1-1.x86_64.rpm
 2.4.1.0-22,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.1.0/ambari/ambari-server-2.4.1.0-22.x86_64.rpm
 2.4.2.0-136,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.2.0/ambari/ambari-server-2.4.2.0-136.x86_64.rpm
+2.4.3.0-30,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.3.0/ambari/ambari-server-2.4.3.0-30.x86_64.rpm
+2.5.0.3-7,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.5.0.3/ambari/ambari-server-2.5.0.3-7.x86_64.rpm
+2.5.1.0-159,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.5.1.0/ambari/ambari-server-2.5.1.0-159.x86_64.rpm
+2.5.2.0-298,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.5.2.0/ambari/ambari-server-2.5.2.0-298.x86_64.rpm
+2.5.2.5-4,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.5.2.5/ambari/ambari-server-2.5.2.5-4.x86_64.rpm
+2.6.0.0-267,http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.6.0.0/ambari/ambari-server-2.6.0.0-267.x86_64.rpm
